@@ -1,0 +1,119 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>QuickStart Bootstrap</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/app.css">
+  <script src = "css/js/angular2.js"></script>
+</head>
+
+<body>
+
+ 
+    <!-- Content -->
+<!--    <div class="make-it-fit">-->
+          <div class="make-it-fit">
+      <div class="form">
+      
+
+      
+      <div ng-app = "mainApp" ng-controller = "ipController" class="tab-content">
+                <div id="login">
+          <h3 style="margin-top:0px;">Welcome Back! Please Login</h3>
+          
+         <!-- <form action="/" method="post">-->
+          
+            <div class="field-wrap">
+            <label>
+              User Id<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+          
+          <ul class="tab-group">
+        <li class="tab active"><a href="#signup">New User? Sign Up</a></li>
+        
+      </ul>
+          
+          <button class="button button-block"/ onclick="window.location= 'reg1.html'">Log In</button>
+          
+          <!--</form>-->
+
+        </div>
+        
+        <div id="signup">   
+          <h1>Sign Up for Free</h1>
+          
+          <form action="/" method="post">
+          
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>
+                First Name<span class="req">*</span>
+              </label>
+              <input type="text" required autocomplete="off" />
+            </div>
+        
+            <div class="field-wrap">
+              <label>
+                Last Name<span class="req">*</span>
+              </label>
+              <input type="text"required autocomplete="off"/>
+            </div>
+          </div>
+
+          <div class="field-wrap">
+            <label>
+              Email Address<span class="req">*</span>
+            </label>
+            <input type="email"required autocomplete="off"/>
+          </div>
+          
+          <div class="field-wrap">
+            <label>
+              Set A Password<span class="req">*</span>
+            </label>
+            <input type="password"required autocomplete="off"/>
+          </div>
+           <ul class="tab-group">
+        
+        <li class="tab"><a href="#login">Log In</a></li>
+      </ul>
+          <button type="submit" class="button button-block"/>Get Started</button>
+          
+          </form>
+
+        </div>
+        
+
+      </div><!-- tab-content -->
+      
+</div> <!-- /form -->
+ 
+      
+             
+        </div>
+
+        <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script>
+            window.jQuery || document.write('<script src="lib/jquery/jquery-2.1.3.min.js"><\/script>')
+        </script>
+        <script src="lib/jquery/jquery-2.1.3.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/app.js"></script>
+
+    </div>
+</body>
