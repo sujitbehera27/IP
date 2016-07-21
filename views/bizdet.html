@@ -1,0 +1,96 @@
+<div>
+    <form class="form-horizontal">
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend>Business Details</legend>
+
+
+
+            <!-- Multiple Radios (inline) -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="ln">List the company’s top 5 competitors to the business.</label>
+                <div class="col-md-4">
+                    <label>Overall</label>
+                    <textarea id="ln" name="ln" type="" placeholder="list competitors to overall business" style="width: 100%;"></textarea>
+                    <br>
+                    <label>By BU</label>
+                    <textarea id="ln" name="ln" type="" placeholder="list competitors to BU if applicable" style="width: 100%;"></textarea>
+
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="country">What are the company’s marketing activities</label>
+                <div class="col-md-4">
+
+                    <select id="revenue1" ng-show="content == 'first'" name="revenue" class="form-control input-sm"  multiple="multiple" va>
+                        <option selected="selected">Select Multiple</option>
+                        <option>Print advertising</option>
+                        <option>Internet/website</option>
+                        <option>Social Media</option>
+                        <option>Scientific Journals</option>
+                    </select>
+                </div>
+            </div>
+            <!--<legend style="font-size: 18px;color: #338ada;">How does the company create value for the company’s intellectual property rights?</legend>-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Training">Is there a company wide IP Policy?</label>
+                <div class="col-md-4">
+                    <label class="radio-inline" for="Training-0">
+                        <input type="radio" name="Training" id="Training-0" value="yes" checked="checked">
+                        Yes
+                    </label>
+                    <label class="radio-inline" for="Training-1">
+                        <input type="radio" name="Training" id="Training-1" value="no">
+                        No
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Training">Do business units engage in strategy setting of the IP strategy?</label>
+                <div class="col-md-4">
+                    <label class="radio-inline" for="Training-0">
+                        <input type="radio" name="Training" id="Training-0" value="yes" checked="checked">
+                        Yes
+                    </label>
+                    <label class="radio-inline" for="Training-1">
+                        <input type="radio" name="Training" id="Training-1" value="no">
+                        No
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Training">Do intellectual property rights correlate with the
+                    business strategy?</label>
+                <div class="col-md-4">
+                    <label class="radio-inline" for="Training-0">
+                        <input type="radio" name="Training" id="Training-0" value="yes" checked="checked">
+                        Yes
+                    </label>
+                    <label class="radio-inline" for="Training-1">
+                        <input type="radio" name="Training" id="Training-1" value="no">
+                        No
+                    </label>
+                </div>
+            </div>
+
+
+
+            <!--  <div class="form-group" style="margin-left: 25%;">
+                  <label class="col-md-4 control-label" for="submit"></label>
+                  <div class="col-md-4">
+                      <button id="submitbiz" name="submitbiz" class="btn btn-primary">Continue To Next Form</button>
+                  </div>
+              </div>-->
+            <div class="form-group">
+                <div class="col-xs-offset-3 col-xs-8 " style="margin-left:75%;">
+                    <a style="background-color: #8c6316;" href="#fin" class="btn btn-primary nexttab" data-toggle="tab" id="btn-next" onclick="$('.nav-tabs > .active').next('li').find('a').trigger('click');">Edit Previous Changes</a>
+
+                    <a style="background-color:green;" href="#fin" class="btn btn-primary nexttab" data-toggle="tab" id="btn-next" onclick="$('.nav-tabs > .active').next('li').find('a').trigger('click');">Save and Continue</a>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+</div>

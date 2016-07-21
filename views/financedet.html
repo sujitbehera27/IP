@@ -1,0 +1,177 @@
+<div>
+    <form class="form-horizontal">
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend>Financial Details</legend>
+
+
+
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="revenue">What is the annual world-wide revenue for the business?</label>
+                <div class="col-md-4">
+                    <select id="revenue" name="revenue" class="form-control input-sm">
+                        <option>Select One</option>
+                        <option>less than $50 million</option>
+                        <option>more than $50 million, but less than $1 billion</option>
+                        <option>1 billion or more</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="emptotal">How many employees are in the business world-wide?</label>
+                <div class="col-md-4">
+                    <select id="emptotal" name="emptotal" class="form-control input-sm">
+                        <option>Select One</option>
+                        <option>fewer than 100 employees</option>
+                        <option>100 to 999 employees</option>
+                        <option>1000 or more</option>
+                    </select>
+                </div>
+            </div>
+            <!-- <div class="form-group">
+                 <label class="col-md-4 control-label" for="Training">Does the company purchase 3rd Party IP insurance?</label>
+                 <div class="col-md-4">
+                     <label class="radio-inline" for="Training-0">
+                         <input type="radio" name="Training" id="Training-0" value="first" checked="checked">
+                         Yes
+                     </label>
+                     <label class="radio-inline" for="Training-1">
+                         <input type="radio" name="Training" id="Training-1" value="no">
+                         No
+                     </label> <br><label style="font-size: 14px;color: #cc7a00">If yes, select all IP insurance coverage that apply:</label>
+
+                     <select id="revenue1" ng-show="content == 'first'" name="revenue" class="form-control input-sm"  multiple="multiple" va>
+                         <option selected="selected">Select Multiple</option>
+                         <option>Abatement coverage</option>
+                         <option>Enforcement coverage</option>
+                         <option>Defensive coverage</option>
+                     </select>
+                 </div>
+
+             </div>-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="emptotal">How does the company invest in R&D?</label>
+                <div class="col-md-4">
+
+                    <select id="revenue1" ng-show="content == 'first'" name="revenue" class="form-control input-sm"  multiple="multiple" va>
+                        <option selected="selected">Select Multiple</option>
+                        <option>Closed innovation</option>
+                        <option>Open innovation</option>
+                        <option>M&A activity</option>
+
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="country">Which regions of the world does the business manufacture/sell/distribute its products?</label>
+                <div class="col-md-4">
+
+                    <select id="revenue1" ng-show="content == 'first'" name="revenue" class="form-control input-sm"  multiple="multiple" va>
+                        <option selected="selected">Select Multiple</option>
+                        <option>US</option>
+                        <option>Canada</option>
+                        <option>Europe</option>
+                        <option>Japan</option>
+                        <option>South America</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Training">Does the company use third parties to distribute its product?</label>
+                <div class="col-md-4">
+                    <label class="radio-inline" for="Training-0">
+                        <input type="radio" name="Training" id="Training-0" value="yes" checked="checked">
+                        Yes
+                    </label>
+                    <label class="radio-inline" for="Training-1">
+                        <input type="radio" name="Training" id="Training-1" value="no">
+                        No
+                    </label>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Training">What is the nature of company’s business? Sell Products?</label>
+                <div class="col-md-4">
+                    <label class="radio-inline" for="Training-0">
+                        <input type="radio" name="Training" id="Training-0" value="first" checked="checked">
+                        Yes
+                    </label>
+                    <label class="radio-inline" for="Training-1">
+                        <input type="radio" name="Training" id="Training-1" value="no">
+                        No
+                    </label> <br><label style="font-size: 14px;color: #cc7a00">If yes, select all IP insurance coverage that apply:</label>
+
+                    <select id="revenue1" ng-show="content == 'first'" name="revenue" class="form-control input-sm"  multiple="multiple" va>
+                        <option selected="selected">Select Multiple</option>
+                        <option>OEM</option>
+                        <option>Retailer</option>
+                        <option>Distributor</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Training">Sell services?</label>
+                <div class="col-md-4">
+                    <label class="radio-inline" for="Training-0">
+                        <input type="radio" name="Training" id="Training-0" value="yes" checked="checked">
+                        Yes
+                    </label>
+                    <label class="radio-inline" for="Training-1">
+                        <input type="radio" name="Training" id="Training-1" value="no">
+                        No
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Training">Sell products and services</label>
+                <div class="col-md-4">
+                    <label class="radio-inline" for="Training-0">
+                        <input type="radio" name="Training" id="Training-0" value="yes" checked="checked">
+                        Yes
+                    </label>
+                    <label class="radio-inline" for="Training-1">
+                        <input type="radio" name="Training" id="Training-1" value="no">
+                        No
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Training">License intellectual property</label>
+                <div class="col-md-4">
+                    <label class="radio-inline" for="Training-0">
+                        <input type="radio" name="Training" id="Training-0" value="yes" checked="checked">
+                        Yes
+                    </label>
+                    <label class="radio-inline" for="Training-1">
+                        <input type="radio" name="Training" id="Training-1" value="no">
+                        No
+                    </label>
+                </div>
+            </div>
+
+
+
+            <!-- <div class="form-group" style="margin-left: 25%;">
+                 <label class="col-md-4 control-label" for="submit"></label>
+                 <div class="col-md-4">
+                     <button id="submitfin" name="submitfin" class="btn btn-primary">Continue To Next Form</button>
+                 </div>
+             </div>-->
+            <div class="form-group">
+                <div class="col-xs-offset-3 col-xs-8 " style="margin-left:75%;">
+                    <a style="background-color: #8c6316;" href="#fin" class="btn btn-primary nexttab" data-toggle="tab" id="btn-next" onclick="$('.nav-tabs > .active').next('li').find('a').trigger('click');">Edit Previous Changes</a>
+
+                    <a style="background-color:green;" href="#fin" class="btn btn-primary nexttab" data-toggle="tab" id="btn-next" onclick="$('.nav-tabs > .active').next('li').find('a').trigger('click');">Save and Continue</a>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>

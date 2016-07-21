@@ -1,0 +1,174 @@
+<div>
+    <form class="form-horizontal">
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend>How does the company manage risk management</legend>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Training">Has the company taken reasonable measures to protect its confidential information</label>
+                <div class="col-md-4">
+                    <label class="radio-inline" for="Training-0">
+                        <input type="radio" name="Training" id="Training-0" value="first" checked="checked">
+                        Yes
+                    </label>
+                    <label class="radio-inline" for="Training-1">
+                        <input type="radio" name="Training" id="Training-1" value="no">
+                        No
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Training">Does the company have specific IP policies?</label>
+                <div class="col-md-4">
+                    <label class="radio-inline" for="Training-0">
+                        <input type="radio" name="Training" id="Training-0" value="first" checked="checked">
+                        Yes
+                    </label>
+                    <label class="radio-inline" for="Training-1">
+                        <input type="radio" name="Training" id="Training-1" value="no">
+                        No
+                    </label> <br><label style="font-size: 14px;color: #cc7a00">If yes, select all IP insurance coverage that apply:</label>
+
+                    <select id="revenue1" ng-show="content == 'first'" name="revenue" class="form-control input-sm"  multiple="multiple" va>
+                        <option selected="selected">Select Multiple</option>
+                        <option>Publication</option>
+                        <option>Ownership of IP</option>
+                        <option>Cooperation with company in protecting IP</option>
+                        <option>Trade show policies</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Training">Agreement management and compliance protocols?</label>
+                <div class="col-md-4">
+                    <label class="radio-inline" for="Training-0">
+                        <input type="radio" name="Training" id="Training-0" value="yes" checked="checked">
+                        Yes
+                    </label>
+                    <label class="radio-inline" for="Training-1">
+                        <input type="radio" name="Training" id="Training-1" value="no">
+                        No
+                    </label> <br><label style="font-size: 14px;color: #cc7a00">If yes, select all that apply:</label>
+
+                    <!--<label>If yes, select all that apply:</label>-->
+
+
+                    <select id="revenue1" ng-show="content == 'first'" name="revenue" class="form-control input-sm"  multiple="multiple" va>
+                        <option selected="selected">Select Multiple</option>
+                        <option>CDAs/NDAs</option>
+                        <option>JVs</option>
+                        <option>Strategic alliance agreements</option>
+                        <option>Open source software agreements</option>
+                        <option>Employee Agreements</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Training">Does the company have ERM Software solutions</label>
+                <div class="col-md-4">
+                    <label class="radio-inline" for="Training-0">
+                        <input type="radio" name="Training" id="Training-0" value="first" checked="checked">
+                        Yes
+                    </label>
+                    <label class="radio-inline" for="Training-1">
+                        <input type="radio" name="Training" id="Training-1" value="no">
+                        No
+                    </label> <br><label style="font-size: 14px;color: #cc7a00">If yes, select all that apply:</label>
+
+                    <select id="revenue1" ng-show="content == 'first'" name="revenue" class="form-control input-sm"  multiple="multiple" va>
+                        <option selected="selected">Select Multiple</option>
+                        <option>Agreement management</option>
+                        <option>IPR Docketing system</option>
+                        <option>Patents</option>
+                        <option>Trademarks</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="country">How does the company avoid third party liability?</label>
+                <div class="col-md-4">
+
+                    <select id="revenue1" ng-show="content == 'first'" name="revenue" class="form-control input-sm"  multiple="multiple" va>
+                        <option selected="selected">Select Multiple</option>
+                        <option>Policy</option>
+                        <option>Freedom to operate practices</option>
+                        <option>Agreement audit practices</option>
+                        <option>IP awareness Training</option>
+                    </select>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Training">Is the company self-insured for IP losses?</label>
+                <div class="col-md-4">
+                    <label class="radio-inline" for="Training-0">
+                        <input type="radio" name="Training" id="Training-0" value="first" checked="checked">
+                        Yes
+                    </label>
+                    <label class="radio-inline" for="Training-1">
+                        <input type="radio" name="Training" id="Training-1" value="no">
+                        No
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Training">Does the company purchase 3rd Party IP insurance?</label>
+                <div class="col-md-4">
+                    <label class="radio-inline" for="Training-0">
+                        <input type="radio" name="Training" id="Training-0" value="first" checked="checked">
+                        Yes
+                    </label>
+                    <label class="radio-inline" for="Training-1">
+                        <input type="radio" name="Training" id="Training-1" value="no">
+                        No
+                    </label> <br><label style="font-size: 14px;color: #cc7a00">If yes, select all IP insurance coverage that apply:</label>
+
+                    <select id="revenue1" ng-show="content == 'first'" name="revenue" class="form-control input-sm"  multiple="multiple" va>
+                        <option selected="selected">Select Multiple</option>
+                        <option>Abatement coverage</option>
+                        <option>Enforcement coverage</option>
+                        <option>Defensive coverage</option>
+                    </select>
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="country">Does the company have oversight of its IP Governance?</label>
+                <div class="col-md-4">
+
+                    <select id="revenue1" ng-show="content == 'first'" name="revenue" class="form-control input-sm"  multiple="multiple" va>
+                        <option selected="selected">Select Multiple</option>
+                        <option>Board oversight and reporting</option>
+                        <option>Legal/compliance oversight and management</option>
+                        <option>Business unit oversight and strategy alignment</option>
+                    </select>
+                </div>
+
+            </div>
+            <!--<div class="form-group" style="margin-left: 75%;">
+                <label class="col-md-4 control-label" for="submit"></label>
+                <div class="col-md-4">
+                    <button id="submitrisk" name="submitrisk" class="btn btn-primary">Submit</button>
+                </div>
+            </div>-->
+            <div class="form-group">
+                <div class="col-xs-offset-3 col-xs-8 " style="margin-left:75%;">
+                    <a style="background-color: #8c6316;" href="#fin" class="btn btn-primary nexttab" data-toggle="tab" id="btn-next" onclick="$('.nav-tabs > .active').next('li').find('a').trigger('click');">Edit Previous Changes</a>
+
+                    <a style="background-color:green;" href="#fin" class="btn btn-primary nexttab" data-toggle="tab" id="btn-next" onclick="$('.nav-tabs > .active').next('li').find('a').trigger('click');">Save and Continue</a>
+                </div>
+            </div>
+            <!-- <div class="form-group">
+                 <div class="col-xs-offset-3 col-xs-8 ">
+                     <a style="margin: 15px" href="#trd" class="btn btn-primary nexttab" data-toggle="tab" id="btn-next">Save and Continue</a>
+                 </div>
+             </div>-->
+        </fieldset>
+    </form>
+</div>
